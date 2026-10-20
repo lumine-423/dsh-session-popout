@@ -38,19 +38,27 @@ DeepSeek Harness 的会话默认都挤在同一个窗口里：想同时盯着两
 
 ## 安装
 
+从 GitHub 安装（现在就能用）：
+
 ```bash
-dsh plugin add dsh-session-popout
+dsh plugin add github:lumine-423/dsh-session-popout
 ```
+
+或者下预构建包（不用本地编译，装得更快）：
+
+```bash
+dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/download/v0.2.0/dsh-session-popout.tgz"
+```
+
+以后会发布到 npm，那时就只需要 `dsh plugin add dsh-session-popout`。
 
 装好后从侧边栏拖任意一个会话即可，不需要额外配置。
 
-> 目前还没进插件市场目录（收录是另一个仓库的 PR，见下方「收录状态」），所以现在只能按上面的命令、或者从 GitHub 仓库安装。
-
 ## 收录状态
 
-- ✅ GitHub 仓库：[lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)
-- ⏳ 插件市场目录：[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 的条目已备好，等仓库建满 1 天后提交 PR（这是目录的自动检查项，不是人工门槛）
-- ⏳ npm 包：`dsh-session-popout`，尚未发布
+- ✅ GitHub 仓库已上线：[lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)，带 `v0.2.0` release 与预构建 `dsh-session-popout.tgz`
+- ⏳ 插件市场目录：[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 的条目已写好，等仓库建满 1 天后提交 PR（这是目录的自动检查项，不是人工门槛）
+- ⏳ npm 包 `dsh-session-popout`：尚未发布，发布后市场能显示下载量
 
 ## 依赖什么
 

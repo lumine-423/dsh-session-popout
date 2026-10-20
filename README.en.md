@@ -38,21 +38,27 @@ In other words, a slice of DSH is **cut out**, not redrawn. The plugin does not 
 
 ## Install
 
+From GitHub (works today):
+
 ```bash
-dsh plugin add dsh-session-popout
+dsh plugin add github:lumine-423/dsh-session-popout
 ```
 
-Or search for **Session Popout** in the plugin market.
+Or use the prebuilt tarball (no local build, faster install):
 
-Once installed, just drag any session out of the sidebar. No configuration needed.
+```bash
+dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/download/v0.2.0/dsh-session-popout.tgz"
+```
 
-> It is not in the market catalog yet (listing is a PR against a separate repository — see "Listing status" below), so for now install it with the command above or from the GitHub repo.
+Once it is on npm, plain `dsh plugin add dsh-session-popout` will work too.
+
+Then just drag any session out of the sidebar. No configuration needed.
 
 ## Listing status
 
-- ✅ GitHub repository: [lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)
+- ✅ GitHub repository live: [lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout), with a `v0.2.0` release and a prebuilt `dsh-session-popout.tgz`
 - ⏳ Market catalog: the [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) entry is written and waiting on the catalog's automated 1-day repo-age check before the PR goes in
-- ⏳ npm package `dsh-session-popout`: not published yet
+- ⏳ npm package `dsh-session-popout`: not published yet; once it is, the market can show a download count
 
 ## Requirements
 
