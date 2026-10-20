@@ -1,6 +1,8 @@
 # 独立会话窗口（Session Popout）
 
-> **本项目由 AI 辅助制作。** 需求、设计方向与验收由作者把握，代码、文档与排查过程由 AI 结对完成。发布前经过人工审阅，文中所有功能说明以实际行为为准。
+> **本项目由 AI 全程辅助制作。** 需求、设计方向与验收由作者把握，代码、文档与排查过程由 AI 结对完成。发布前经过人工审阅，文中所有功能说明以实际行为为准。
+
+> **顺便一提，下面的介绍也是ai写的，所以ai味很重也别找我麻烦嘞。**
 
 让你可以从侧边栏拖拽会话，使其成为一个独立窗口，省得来回切换会话的插件！
 
@@ -16,7 +18,7 @@ DeepSeek Harness 的会话默认都挤在同一个窗口里：想同时盯着两
 
 ## 看起来是什么样
 
-拖出去的窗口不是套壳截图，而是 **DSH 自己的会话界面**：
+拖出去的窗口是 **DSH 自己的会话界面**：
 
 - 顶部还是「对话 / 轨迹」标签、模型名、右上角那排控制件
 - 中间还是原来那套对话流，Markdown、代码块、工具调用卡片全部照旧渲染
@@ -106,7 +108,7 @@ dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/latest
 
 [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) 加一条源码可得性补充条款。SPDX 标识：`LicenseRef-PolyForm-Noncommercial-1.0.0-With-Source-Availability`。
 
-白话讲，你可以：
+你可以：
 
 - 免费用，随便用，私人、学习、研究、业余项目、慈善、教育、公共研究、政府机构使用都算允许用途
 - 读源码、改源码、自己改着玩
