@@ -42,9 +42,15 @@ DeepSeek Harness 的会话默认都挤在同一个窗口里：想同时盯着两
 dsh plugin add dsh-session-popout
 ```
 
-或在本市场里直接搜 **独立会话窗口**。
-
 装好后从侧边栏拖任意一个会话即可，不需要额外配置。
+
+> 目前还没进插件市场目录（收录是另一个仓库的 PR，见下方「收录状态」），所以现在只能按上面的命令、或者从 GitHub 仓库安装。
+
+## 收录状态
+
+- ✅ GitHub 仓库：[lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)
+- ⏳ 插件市场目录：[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 的条目已备好，等仓库建满 1 天后提交 PR（这是目录的自动检查项，不是人工门槛）
+- ⏳ npm 包：`dsh-session-popout`，尚未发布
 
 ## 依赖什么
 

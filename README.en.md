@@ -46,6 +46,14 @@ Or search for **Session Popout** in the plugin market.
 
 Once installed, just drag any session out of the sidebar. No configuration needed.
 
+> It is not in the market catalog yet (listing is a PR against a separate repository — see "Listing status" below), so for now install it with the command above or from the GitHub repo.
+
+## Listing status
+
+- ✅ GitHub repository: [lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)
+- ⏳ Market catalog: the [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) entry is written and waiting on the catalog's automated 1-day repo-age check before the PR goes in
+- ⏳ npm package `dsh-session-popout`: not published yet
+
 ## Requirements
 
 - **DSH Desktop** (`dsh-desktop-runtime`). The plugin borrows the desktop app's bundled Electron to create native windows. Plain `dsh web` has no such capability and the plugin quietly does nothing there.
