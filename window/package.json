@@ -1,0 +1,7 @@
+{
+  "name": "dsh-session-popout-window",
+  "version": "1.0.0",
+  "private": true,
+  "description": "最小的 Electron 宿主：只负责开一个原生窗口并加载 DSH 页面。",
+  "main": "main.cjs"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "dsh-session-popout",
+  "version": "0.2.0",
+  "private": false,
+  "type": "module",
+  "description": "让你可以从侧边栏拖拽会话，使其成为一个独立窗口，省得来回切换会话的插件！",
+  "license": "MIT",
+  "author": "Lumine-423",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "session",
+    "popout",
+    "multi-window",
+    "electron"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumine-423/dsh-session-popout.git"
+  },
+  "homepage": "https://github.com/lumine-423/dsh-session-popout#readme",
+  "bugs": {
+    "url": "https://github.com/lumine-423/dsh-session-popout/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "window/main.cjs",
+    "window/preload.cjs",
+    "window/package.json"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  }
+}
