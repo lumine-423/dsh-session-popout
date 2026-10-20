@@ -47,7 +47,7 @@ dsh plugin add github:lumine-423/dsh-session-popout
 或者下预构建包（不用本地编译，装得更快）：
 
 ```bash
-dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/download/v0.2.0/dsh-session-popout.tgz"
+dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/latest/download/dsh-session-popout.tgz"
 ```
 
 以后会发布到 npm，那时就只需要 `dsh plugin add dsh-session-popout`。
@@ -56,7 +56,7 @@ dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/downlo
 
 ## 收录状态
 
-- ✅ GitHub 仓库已上线：[lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)，带 `v0.2.0` release 与预构建 `dsh-session-popout.tgz`
+- ✅ GitHub 仓库已上线：[lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)，带 release 与预构建 `dsh-session-popout.tgz`（资产名不带版本号，安装命令因此不会随发版失效）
 - ⏳ 插件市场目录：PR 已提交 —— [awesome-dsh-plugin#8306](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8306)。目录有一条自动检查要求仓库创建满 1 天；首次跑会红，该检查每 6 小时自动重跑，满 1 天后会自行转绿，不需要重开 PR
 - ⏳ npm 包 `dsh-session-popout`：尚未发布，发布后市场能显示下载量
 
@@ -104,4 +104,17 @@ dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/downlo
 
 ## License
 
-MIT
+[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) 加一条源码可得性补充条款。SPDX 标识：`LicenseRef-PolyForm-Noncommercial-1.0.0-With-Source-Availability`。
+
+白话讲，你可以：
+
+- 免费用，随便用，私人、学习、研究、业余项目、慈善、教育、公共研究、政府机构使用都算允许用途
+- 读源码、改源码、自己改着玩
+- 原样转发给别人
+
+但不能：
+
+- **拿去商用** —— 卖钱、放进收费产品、当作商业服务的一部分，都不行。要商用请单独联系作者谈授权
+- **改完闭源发给别人** —— 你把改过的版本发出去，就必须把改过之后的完整源码用同样条款、免费、放在拿到你版本的人找得到的地方公开。只发打包产物、压缩产物、编译产物不算
+
+完整条款见 [LICENSE](LICENSE)。

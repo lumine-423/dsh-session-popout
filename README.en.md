@@ -47,7 +47,7 @@ dsh plugin add github:lumine-423/dsh-session-popout
 Or use the prebuilt tarball (no local build, faster install):
 
 ```bash
-dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/download/v0.2.0/dsh-session-popout.tgz"
+dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/latest/download/dsh-session-popout.tgz"
 ```
 
 Once it is on npm, plain `dsh plugin add dsh-session-popout` will work too.
@@ -56,7 +56,7 @@ Then just drag any session out of the sidebar. No configuration needed.
 
 ## Listing status
 
-- ✅ GitHub repository live: [lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout), with a `v0.2.0` release and a prebuilt `dsh-session-popout.tgz`
+- ✅ GitHub repository live: [lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout), with a release and a prebuilt `dsh-session-popout.tgz` (the asset name carries no version, so the install command does not rot on the next release)
 - ⏳ Market catalog: PR open — [awesome-dsh-plugin#8306](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8306). The catalog has an automated 1-day repo-age check; it is red on the first run, re-runs itself every six hours, and turns green on its own once the repo is a day old. No need to reopen anything
 - ⏳ npm package `dsh-session-popout`: not published yet; once it is, the market can show a download count
 
@@ -102,4 +102,17 @@ The window carries its own self-check: if DSH's conversation UI has not appeared
 
 ## License
 
-MIT
+[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) plus an added source-availability term. SPDX identifier: `LicenseRef-PolyForm-Noncommercial-1.0.0-With-Source-Availability`.
+
+In plain terms, you may:
+
+- use it for free, for any noncommercial purpose — personal, study, research, hobby, charity, education, public research, and government use are all permitted
+- read the source and change it for yourself
+- pass the unmodified plugin on to someone else
+
+You may not:
+
+- **sell it or use it commercially** — no selling, no shipping inside a paid product, no running it as part of a commercial service. Contact the author for a separate commercial licence
+- **publish a modified closed-source version** — if you distribute a modified copy, you must publish the complete corresponding source of your version under these same terms, free of charge, somewhere the people who got your copy can find it. Compiled, bundled, minified, or otherwise machine-only output does not count
+
+Full terms are in [LICENSE](LICENSE).
