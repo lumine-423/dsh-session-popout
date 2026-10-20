@@ -1,0 +1,7 @@
+# Auto: normalise line endings so the repo is byte-stable across platforms.
+* text=auto eol=lf
+*.cjs text eol=lf
+*.js text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
