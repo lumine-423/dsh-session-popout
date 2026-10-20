@@ -57,7 +57,7 @@ dsh plugin add "https://github.com/lumine-423/dsh-session-popout/releases/downlo
 ## 收录状态
 
 - ✅ GitHub 仓库已上线：[lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout)，带 `v0.2.0` release 与预构建 `dsh-session-popout.tgz`
-- ⏳ 插件市场目录：[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 的条目已写好，等仓库建满 1 天后提交 PR（这是目录的自动检查项，不是人工门槛）
+- ⏳ 插件市场目录：PR 已提交 —— [awesome-dsh-plugin#8306](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8306)。目录有一条自动检查要求仓库创建满 1 天；首次跑会红，该检查每 6 小时自动重跑，满 1 天后会自行转绿，不需要重开 PR
 - ⏳ npm 包 `dsh-session-popout`：尚未发布，发布后市场能显示下载量
 
 ## 依赖什么
