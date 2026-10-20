@@ -57,7 +57,7 @@ Then just drag any session out of the sidebar. No configuration needed.
 ## Listing status
 
 - ✅ GitHub repository live: [lumine-423/dsh-session-popout](https://github.com/lumine-423/dsh-session-popout), with a `v0.2.0` release and a prebuilt `dsh-session-popout.tgz`
-- ⏳ Market catalog: the [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) entry is written and waiting on the catalog's automated 1-day repo-age check before the PR goes in
+- ⏳ Market catalog: PR open — [awesome-dsh-plugin#8306](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8306). The catalog has an automated 1-day repo-age check; it is red on the first run, re-runs itself every six hours, and turns green on its own once the repo is a day old. No need to reopen anything
 - ⏳ npm package `dsh-session-popout`: not published yet; once it is, the market can show a download count
 
 ## Requirements
